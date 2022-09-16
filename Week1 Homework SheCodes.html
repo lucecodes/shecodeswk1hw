@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW Week1</title>
+
+    <style>
+      .current {
+        font-size: 26px;
+        font-family: "tahoma";
+        text-align: center;
+      }
+      .creator {
+        font-family: "verdana";
+        font-size: 14px;
+        font-style: italic;
+        text-align: center;
+      }
+      .temp {
+        font-size: 18px;
+      }
+      h1 {
+        color: #1a64d6;
+        font-family: "tahoma";
+        text-align: center;
+      }
+      ul {
+        padding: 0;
+      }
+      li {
+        font-family: "verdana";
+        list-style: none;
+        text-align: center;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: auto;
+        padding: 10px 0;
+        transition: all 250ms ease-in-out;
+      }
+      li:hover {
+        background: #fefbef;
+        cursor: pointer;
+      }
+      button {
+        background: #1a64d6;
+        border-radius: 35px;
+        border: 2px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        color: whitesmoke;
+        display: block;
+        font-size: 18px;
+        font-family: "tahoma";
+        margin: 30px auto;
+        padding: 20px 35px;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+      }
+      button:hover {
+        background: whitesmoke;
+        color: #1a64d6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🌤 <br />Currently 21° in Tokyo<br /></h1>
+    <p class="current">13° / <strong>23°</strong></p>
+
+    <ul>
+      <li>
+        <h2>🌧 Tomorrow</h2>
+        <p class="temp">10° / <strong>22°</strong></p>
+      </li>
+
+      <br />
+      <li>
+        <h2>🌥 Saturday</h2>
+        <p class="temp">15° / <strong>17°</strong></p>
+      </li>
+      <br />
+      <li>
+        <h2>☀️ Sunday</h2>
+        <p class="temp">25° / <strong>28°</strong></p>
+      </li>
+    </ul>
+    <button>Change City</button>
+    <p class="creator">Coded by Luce</p>
+    <br />
+  </body>
+</html>
